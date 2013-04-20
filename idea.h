@@ -15,10 +15,8 @@ public:
 	}
 };
 
-class selectedBall:object
+class selectedBall:public ball
 {
-protected:
-	int color;
 public:
 	void draw()
 	{
